@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: bar-app
-        image: localhost:5000/my-microk8s-app
+        image: localhost:32000/my-microk8s-app
         ports:
         - containerPort: 8080
         env:
