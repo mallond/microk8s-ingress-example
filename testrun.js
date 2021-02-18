@@ -14,7 +14,7 @@ async function runSampleTest () {
   let driver;
   try {
     driver = new webdriver.Builder().
-      usingServer('http://hub-cloud.browserstack.com/wd/hub').
+      usingServer('http://10.152.183.186:4444/wd/hub').
       withCapabilities(capabilities).build();
     await driver.get('http://www.google.com');
     await (await driver.findElement(webdriver.By.name('q'))).sendKeys('BrowserStack\n');
