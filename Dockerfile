@@ -1,4 +1,4 @@
-FROM node:6.14.2
+FROM node
 EXPOSE 8080
 COPY app.js .
 CMD node app.js
