@@ -2,14 +2,7 @@ var webdriver = require('selenium-webdriver');
 const GRID_HOST = 'http://10.152.183.186:4444/wd/hub';
 
 const capabilities = {
-    platform: 'windows 10',
     browserName: 'chrome',
-    version: '67.0',
-    resolution: '1280x800',
-    network: true,
-    visual: true,
-    console: true,
-    video: true,
     name: 'Test 1', // name of the test
     build: 'NodeJS build' // name of the build
 }
