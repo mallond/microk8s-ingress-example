@@ -1,8 +1,9 @@
 var webdriver = require('selenium-webdriver');
 
 var driver = new webdriver.Builder().
-   withCapabilities(webdriver.Capabilities.chrome()).
-   build();
+.usingServer('http://10.152.183.186:4444/wd/hub')
+            .withCapabilities(webdriver.Capabilities.chrome())
+            .build();
 
 driver.get('http://www.google.com');
 driver.findElement(webdriver.By.name('q')).sendKeys('webdriver');
