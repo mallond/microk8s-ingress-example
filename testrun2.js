@@ -1,5 +1,5 @@
 
-const GRID_HOST = 'http://10.152.183.186:4444/wd/hub';
+const GRID_HOST = 'http://10.152.183.186:4444';
 
 
 const { Builder, Capabilities } = require("selenium-webdriver");
