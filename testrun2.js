@@ -8,7 +8,7 @@ const capabilities = {
  'resolution' : '1920x1080',
  'browserName' : 'Chrome',
  'browser_version' : 'latest',
- 'os' : 'Windows',
+ 'os' : 'Linux',
  'name': 'BStack-[NodeJS] Sample Test', // test name
  'build': 'BStack Build Number 1', // CI/CD job or build name
  'browserstack.user' : 'YOUR_USERNAME',
