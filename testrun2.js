@@ -1,7 +1,7 @@
 var webdriver = require('selenium-webdriver');
 
-var driver = new webdriver.Builder().
-.usingServer('http://10.152.183.186:4444/wd/hub')
+var driver = new webdriver.Builder()
+            .usingServer('http://10.152.183.186:4444/wd/hub')
             .withCapabilities(webdriver.Capabilities.chrome())
             .build();
 
