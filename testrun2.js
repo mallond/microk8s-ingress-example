@@ -10,7 +10,7 @@ var capabilities = Capabilities.firefox();
         .withCapabilities(capabilities)
         .build();
     try {
-        await driver.get('http://www.google.com');
+        await driver.get('https://www.google.com');
     } finally {
         await driver.quit();
     }
